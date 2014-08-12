@@ -582,7 +582,7 @@ public class WorldGuardBlockListener implements Listener {
         }
 
         if (!plugin.getGlobalRegionManager().canBuild(player, event.getBlock())) {
-            player.sendMessage(ChatColor.DARK_RED + "You don't have permission for this area.");
+            player.sendMessage(ChatColor.DARK_RED + "Cloud" + ChatColor.DARK_GRAY + "Craft" + ChatColor.DARK_RED " Net" + ChatColor.DARK_GRAY "work" + ChatColor.DARK_RED + "You don't have permission for this area.");
             event.setCancelled(true);
             return;
         }
